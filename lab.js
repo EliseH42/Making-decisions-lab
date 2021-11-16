@@ -49,8 +49,8 @@ console.log("Amy & Brittani were not born in the same year")
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = true
+let temperature = 60
+let rain = false
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -58,7 +58,21 @@ let rain = true
 */
 
 //CODE HERE
+if (rain===true && temperature >= 80){
+console.log("Wear a t-shirt and take an umbrella.")
+}else if (rain===true &&  temperature < 80 && temperature > 60){
+console.log("Wear a rain-jacket.")
+}else if (rain===true && temperature <= 60){
+console.log("Wear a jacket and carry an umbrella.")
+}else if (rain===false && temperature >= 80){
+console.log("Wear a tank top.")
+}else if (rain===false && temperature < 80 && temperature > 60){
+console.log("Wear a t-shirt.")
+}else if (rain===false && temperature <= 60){
+console.log("Wear a jacket.")
+}
 
+//it's acting like rain always is true and I don't know why
 
 ////////// PROBLEM 5 //////////
 
