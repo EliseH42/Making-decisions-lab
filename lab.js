@@ -72,7 +72,6 @@ console.log("Wear a t-shirt.")
 console.log("Wear a jacket.")
 }
 
-//it's acting like rain always is true and I don't know why
 
 ////////// PROBLEM 5 //////////
 
@@ -81,7 +80,9 @@ console.log("Wear a jacket.")
 */
 
 //CODE HERE
-
+for(let i=0; i< 10; i++){
+console.log("hello")
+};
 
 ////////// PROBLEM 6 //////////
 
@@ -90,7 +91,10 @@ console.log("Wear a jacket.")
 */
 
 //CODE HERE
-
+for(let i=0; i< 10; i++){
+console.log(i+1)
+};
+  
 
 ////////// PROBLEM 7 //////////
 
