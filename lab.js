@@ -91,6 +91,7 @@ console.log("hello")
 */
 
 //CODE HERE
+
 for(let i=0; i< 10; i++){
 console.log(i+1)
 };
@@ -104,6 +105,11 @@ console.log(i+1)
 
 //CODE HERE
 
+for(let i=10 ;i>0;i--){
+console.log(i)
+}
+
+
 let score = 0
 let passingScore = 7
 
@@ -114,7 +120,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+while(score<passingScore){
+console.log("Your score is not high enough")
+score++
+};
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
